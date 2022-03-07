@@ -14,5 +14,17 @@ pipeline {
       }
     }
 
+    stage('Bug ') {
+      steps {
+        echo 'Bug Found'
+      }
+    }
+
+    stage('Test') {
+      steps {
+        echo 'QA Done'
+      }
+    }
+
   }
 }
