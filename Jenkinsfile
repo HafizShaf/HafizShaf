@@ -26,5 +26,11 @@ pipeline {
       }
     }
 
+    stage('Ready For Deploy') {
+      steps {
+        echo 'Product is Ready for deployment'
+      }
+    }
+
   }
 }
